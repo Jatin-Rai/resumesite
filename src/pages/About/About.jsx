@@ -19,7 +19,7 @@ const About = () => {
                 <h1 className="flex flex-col pt-5 gap-4 text-3xl sm:text-4xl font-semibold">
                     Hi,{" "}
                     <span>
-                        I'm
+                        I&apos;m
                         <span className='text-red-500 dark:text-cyan-300'> Jatin </span>Rai
                     </span>
                 </h1>
