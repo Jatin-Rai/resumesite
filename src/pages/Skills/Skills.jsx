@@ -10,7 +10,7 @@ import {
     FaGitAlt,
     FaAws,
 } from 'react-icons/fa';
-import { SiRedux, SiTailwindcss, SiMaterialdesignicons } from 'react-icons/si';
+import { SiRedux, SiTailwindcss } from 'react-icons/si';
 
 import MUILogo from '../../assets/muilogo.png'
 
@@ -27,7 +27,6 @@ const Skills = () => {
         { skill: 'TailwindCSS', Icon: <SiTailwindcss className='text-cyan-500 text-5xl' /> },
         { skill: 'MaterialUI', Icon: <img src={MUILogo} width={50} className='text-blue-500 text-5xl' /> },
         { skill: 'Java', Icon: <FaJava className='text-blue-700 text-5xl dark:text-red-500' /> },
-        { skill: 'Python', Icon: <FaPython className='text-blue-900 text-5xl dark:text-yellow-300' /> },
         { skill: 'Git', Icon: <FaGitAlt className='text-orange-600 text-5xl' /> },
         { skill: 'AWS', Icon: <FaAws className='text-orange-400 text-5xl' /> },
     ];
@@ -35,7 +34,7 @@ const Skills = () => {
     return (
         <motion.section
             className='py-20 sm:py-14 px-10 sm:px-28 dark:bg-cyan-950 text-gray-600 dark:text-gray-300'
-            
+
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             exit={{ x: "150%" }}
