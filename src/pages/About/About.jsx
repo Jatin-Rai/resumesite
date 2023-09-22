@@ -1,5 +1,5 @@
 import Pic from '../../assets/home.png';
-import CV from "../../assets/Jatin_Rai_Resume.pdf"
+import CV from "../../assets/jatin-rai-cv.pdf"
 
 import ReactTyped from 'react-typed';
 
