@@ -18,7 +18,7 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     const skills = [
-        { skill: 'React', Icon: <FaReact className='text-cyan-500 text-5xl animate-spin' /> },
+        { skill: 'React', Icon: <FaReact className='text-cyan-500 text-5xl animate-spin-slow' /> },
         { skill: 'HTML', Icon: <FaHtml5 className='text-orange-500 text-5xl' /> },
         { skill: 'CSS', Icon: <FaCss3 className='text-blue-500 text-5xl' /> },
         { skill: 'JavaScript', Icon: <FaJs className='text-yellow-400 text-5xl' /> },
