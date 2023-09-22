@@ -37,7 +37,7 @@ const About = () => {
                 <p className='text-sm sm:text-base'>
                     Experienced and creative professional in frontend development with over one year of hands-on experience. Skilled in building engaging user interfaces, problem-solving, feature implementation, and successful deployment.
                 </p>
-                <div className='py-2 animate-bounce'>
+                <div className='py-2 animate-pulse transition duration-1000'>
                     <a
                         className='border-2 border-red-600 dark:border-cyan-300 rounded-full py-2 px-6 text-red-600 dark:text-cyan-300 shadow-md hover:bg-red-600 dark:hover:bg-cyan-300 hover:text-white dark:hover:text-white hover:shadow-xl'
                         href={CV}
