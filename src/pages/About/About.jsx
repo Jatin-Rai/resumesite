@@ -49,10 +49,10 @@ const About = () => {
                 </div>
                 <div className="flex gap-4">
                     <a href="https://www.linkedin.com/in/jatinrai96/" target='_blank' rel="noreferrer">
-                        <FaLinkedin className="text-blue-800 text-3xl hover:animate-spin" />
+                        <FaLinkedin className="text-blue-800 text-3xl hover:animate-bounce dark:text-white" />
                     </a>
                     <a href="https://github.com/Jatin-Rai" target='_blank' rel="noreferrer">
-                        <FaGithub className="text-3xl hover:animate-spin" />
+                        <FaGithub className="text-3xl hover:animate-bounce" />
                     </a>
                     <a href="https://www.instagram.com/jatin.j.rai/" target='_blank' rel="noreferrer">
                         <FaInstagram className="text-pink-600 text-3xl hover:animate-spin" />
