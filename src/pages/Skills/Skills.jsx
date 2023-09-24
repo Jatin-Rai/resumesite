@@ -6,7 +6,6 @@ import {
     FaJs,
     FaBootstrap,
     FaJava,
-    FaPython,
     FaGitAlt,
     FaAws,
 } from 'react-icons/fa';
