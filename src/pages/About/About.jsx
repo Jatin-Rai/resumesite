@@ -35,7 +35,7 @@ const About = () => {
                     </h3>
                 </div>
                 <p className='text-sm sm:text-base'>
-                    Experienced and creative professional in frontend development with over one year of hands-on experience. Skilled in building engaging user interfaces, problem-solving, feature implementation, and successful deployment.
+                    Experienced and creative professional in frontend development with about 2 years of hands-on experience. Skilled in building engaging user interfaces, problem-solving, feature implementation, and successful deployment.
                 </p>
                 <div className='py-2 animate-pulse transition duration-1000'>
                     <a
