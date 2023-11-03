@@ -9,7 +9,7 @@ import {
     FaGitAlt,
     FaAws,
 } from 'react-icons/fa';
-import { SiRedux, SiTailwindcss } from 'react-icons/si';
+import { SiRedux, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 
 import MUILogo from '../../assets/muilogo.png'
 
@@ -25,6 +25,7 @@ const Skills = () => {
         { skill: 'Bootstrap', Icon: <FaBootstrap className='text-purple-500 text-5xl' /> },
         { skill: 'TailwindCSS', Icon: <SiTailwindcss className='text-cyan-500 text-5xl' /> },
         { skill: 'MaterialUI', Icon: <img src={MUILogo} width={50} className='text-blue-500 text-5xl' /> },
+        { skill: 'NextJS', Icon: <SiNextdotjs className='text-5xl text-black dark:text-white' /> },
         { skill: 'Java', Icon: <FaJava className='text-blue-700 text-5xl dark:text-red-500' /> },
         { skill: 'Git', Icon: <FaGitAlt className='text-orange-600 text-5xl' /> },
         { skill: 'AWS', Icon: <FaAws className='text-orange-400 text-5xl' /> },
