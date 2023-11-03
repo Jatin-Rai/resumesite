@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { motion } from 'framer-motion';
 
 const Experience = () => {
@@ -38,7 +36,7 @@ const Experience = () => {
                             date="(Jan 2022 - May 2022)"
                             company="Shivila Technologies Pvt. Ltd."
                         />
-                         <ListItem
+                        <ListItem
                             title="Web Developer"
                             date="(Feb 2021 - May 2021)"
                             company="Shadowfax Technologies Pvt. Ltd."

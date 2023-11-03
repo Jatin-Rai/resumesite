@@ -1,4 +1,4 @@
-import { Footer, Sidebar } from '../../components';
+import { Sidebar } from '../../components';
 
 const Layout = ({ children }) => {
 
@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
 
         <>
             <Sidebar>
-                    {children}
+                {children}
             </Sidebar>
 
         </>

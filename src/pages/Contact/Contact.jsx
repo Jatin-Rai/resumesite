@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdLocationPin, MdEmail, MdClose } from 'react-icons/md';
 import { FaPhoneAlt, FaThumbsUp } from 'react-icons/fa';

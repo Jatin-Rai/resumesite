@@ -1,5 +1,3 @@
-import React from 'react'
-
 import InfinityLoader from "../../assets/infinity_loader.gif"
 
 const Loading = () => {

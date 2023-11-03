@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { About, Contact, Experience, Skills } from '../../pages'
 import { AnimatePresence } from 'framer-motion'
